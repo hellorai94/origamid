@@ -1,1 +1,1 @@
-atividades que eu estou desenvolvendo no curso de HTML e CSS para Iniciantes na origamid
+Aqui estão as atividades que eu estou desenvolvendo no curso de HTML e CSS para Iniciantes, na Origamid. 
