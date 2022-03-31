@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gastar{
+  border-radius: 4px;
+  background-color: #111;  
+  padding: 25px;
+  margin: 18px;
+  border-radius: 4px;
+}
+
+h2  {
+  color:white;
+  margin: 0px;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+span {
+  color: #febe01;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #332200;
+  margin: 11px;
+  background-color: #febe01;
+  border-radius: 4px ;
+  padding: 10px;
+  width: 120px;
+  font-size: 15px;
+}
+
+
