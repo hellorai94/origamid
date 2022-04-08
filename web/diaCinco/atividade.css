@@ -81,18 +81,30 @@ p {
 .segundo {
   font-size: 64px;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(223, 33, 33, 0.2);
   text-align: right;
   padding: 40px;
-  align-self: center;
+  align-self: flex-end;
+}
+
+.gerais {
+  background: white;
+  padding: 40px;
 }
 
 .modelos {
-  margin: 15px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15px;
+  padding: 10px;
+}
+
+.texto {
+   grid-column: 2;
 }
 
 footer {
-  background: #fff;
+  background: white;
   width: 100%;
   text-align: center;
   padding: 40px;
