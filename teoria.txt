@@ -1,0 +1,15 @@
+#13-04-22#
+
+• 1rem = 16pix;
+
+• rem é em relação ao html;
+
+• vh e vw;
+
+• calc;
+
+• tipografia;
+
+• background;
+
+
