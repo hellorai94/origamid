@@ -13,3 +13,16 @@
 • background;
 
 
+# 16-04-22 # 
+
+• :hover;
+
+• :focus;
+
+• :active;
+
+• :visited;
+
+• first-child, nth-child();
+
+• 
