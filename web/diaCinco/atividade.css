@@ -28,6 +28,7 @@ a {
   color: black;
   text-transform: uppercase;
   display: block;
+  border: 2px solid white;
 }
 
 .flex {
@@ -44,7 +45,7 @@ ul {
 }
 
 .menu:hover{
-  border: 2px solid red;
+  border-color:  red;
 }
 
 p, h1, h2, h3 {
@@ -73,13 +74,18 @@ p {
   justify-items: end;
 }
 
-.traco {
+.caracteristicas::before {
+  content: "";
   width: 60px;
   height: 4px;
   background: #e21;
   position: absolute;
   top: 35px;
   right: -30px;
+}
+
+.caracteristicas h1 {
+  font-size: 2rem;
 }
 
 .botao {
@@ -106,7 +112,7 @@ p {
   text-align: right;
   padding: 40px;
   align-self: flex-end;
-  background-image: url(./img/onda.svg);
+  background-image: url("./img/onda.svg");
 }
 
 .gerais {
@@ -114,19 +120,19 @@ p {
   padding: 40px;
 }
 
-.modelos:hover {
+.modelos {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 15px;
   padding: 10px;
-  border-left: 3px solid red;
+  border-left: 4px solid transparent;
 }
 
-.modelos:first-child {
-  background-color:  #f7f7f7;
+.modelos:hover {
+  border-color: #e21;
 }
 
-.modelos:last-child {
+.modelos:nth-child(odd) {
   background-color:  #f7f7f7;
 }
 

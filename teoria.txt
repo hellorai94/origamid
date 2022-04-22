@@ -41,3 +41,12 @@
 The <nav> HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common 
 examples of navigation sections are menus, tables of contents, and indexes.
 
+
+# 21-04-22 #
+
+- quando colocamos um borda, o elemento fica maior;
+
+- o pseudoelemento sempre tem que ter um conteúdo;
+
+
+
